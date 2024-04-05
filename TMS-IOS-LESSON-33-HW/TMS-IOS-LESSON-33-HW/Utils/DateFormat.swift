@@ -1,7 +1,7 @@
 import Foundation
 
 class DateFormat {
-    private static let dateFormatter = DateFormatter()
+    static let dateFormatter = DateFormatter()
     
     static func convertCurrentDateToISO(withFormat: String = "yyyy-MM-dd'T'HH:mm:ssZ") -> String {
         let date = Date()

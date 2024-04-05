@@ -24,7 +24,7 @@ class LoginViewController: UIViewController {
     private func setupTextFields() {
         view.addSubview(emailTextField)
         view.addSubview(passwordTextField)
- 
+        
         emailTextField.becomeFirstResponder()
         let prevEmail = KeychainService.shared.getValue(for: "login")
         if prevEmail != nil {
@@ -65,7 +65,7 @@ class LoginViewController: UIViewController {
                         self.button.loadingIndicator(false)
                     }
                 }
-              
+                
                 self.navigationController?.replaceTopViewController(with: MainViewController(), animated: true)
             } else {
                 if(email.count == 0) {
@@ -77,7 +77,7 @@ class LoginViewController: UIViewController {
             }
         }
         button.addAction(action, for: .touchUpInside)
-
+        
     }
     
     

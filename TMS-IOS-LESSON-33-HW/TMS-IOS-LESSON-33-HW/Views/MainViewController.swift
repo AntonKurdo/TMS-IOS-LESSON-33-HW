@@ -5,6 +5,10 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         setupNavigationBar()
+        
+        AuthService.shared.scheduledLogout() {
+            self.navigationController?.replaceTopViewController(with: LoginViewController(), animated: false)
+        }
     }
     
     private func setupNavigationBar() {

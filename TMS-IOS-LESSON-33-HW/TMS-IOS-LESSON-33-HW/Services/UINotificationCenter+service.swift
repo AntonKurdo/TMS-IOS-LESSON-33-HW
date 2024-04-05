@@ -9,9 +9,11 @@ class UINotificationCenterService {
     
     private let identifier = "loginNotification"
     
+    let dayTimeInterval: TimeInterval = 60 * 60 * 24 // 1 day in seconds
+    
     private init() {}
     
-    func checkPermission(successCompletion: @escaping (() -> ())) {
+    func checkPermission(successCompletion: @escaping (() -> Void)) {
         notificationCenter.requestAuthorization(options: [.alert, .badge, .sound]) { success, error in
             if success {
                 successCompletion()
@@ -23,12 +25,11 @@ class UINotificationCenterService {
 
     func addNotification() {
         let content = UNMutableNotificationContent()
-        let timeInterval: TimeInterval = 60 * 60 * 24 // 1 day in seconds
         content.title = "Attention"
         content.subtitle = "You need to relogin"
         content.sound = UNNotificationSound.default
         
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: timeInterval, repeats: false)
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: dayTimeInterval, repeats: false)
         let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
 
         notificationCenter.add(request)
