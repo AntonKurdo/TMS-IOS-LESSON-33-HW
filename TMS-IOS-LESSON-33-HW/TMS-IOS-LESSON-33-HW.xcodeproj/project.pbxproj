@@ -7,23 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040F35A32BBE9BD8004CBC97 /* Calendar+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F35A22BBE9BD8004CBC97 /* Calendar+ext.swift */; };
+		040F35A52BBEA584004CBC97 /* UINotificationCenter+service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F35A42BBEA584004CBC97 /* UINotificationCenter+service.swift */; };
 		0430F9D82BBC4BF300C92A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430F9D72BBC4BF300C92A14 /* AppDelegate.swift */; };
 		0430F9DA2BBC4BF300C92A14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430F9D92BBC4BF300C92A14 /* SceneDelegate.swift */; };
-		0430F9DC2BBC4BF300C92A14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430F9DB2BBC4BF300C92A14 /* ViewController.swift */; };
-		0430F9DF2BBC4BF300C92A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0430F9DD2BBC4BF300C92A14 /* Main.storyboard */; };
+		0430F9DC2BBC4BF300C92A14 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430F9DB2BBC4BF300C92A14 /* MainViewController.swift */; };
 		0430F9E12BBC4BF700C92A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0430F9E02BBC4BF700C92A14 /* Assets.xcassets */; };
 		0430F9E42BBC4BF700C92A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0430F9E22BBC4BF700C92A14 /* LaunchScreen.storyboard */; };
+		0430F9EF2BBC4DD600C92A14 /* Auth+service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430F9EE2BBC4DD600C92A14 /* Auth+service.swift */; };
+		043C684C2BBD5AA500820C65 /* SwiftyKeychainKit in Frameworks */ = {isa = PBXBuildFile; productRef = 043C684B2BBD5AA500820C65 /* SwiftyKeychainKit */; };
+		043C684E2BBD5B4300820C65 /* Keychain+service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C684D2BBD5B4300820C65 /* Keychain+service.swift */; };
+		043C68502BBD5FB900820C65 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C684F2BBD5FB900820C65 /* DateFormat.swift */; };
+		04AD08F82BBC7ED300EBC20F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD08F72BBC7ED300EBC20F /* LoginViewController.swift */; };
+		04AD08FB2BBC7F6200EBC20F /* UITextField+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD08FA2BBC7F6200EBC20F /* UITextField+ext.swift */; };
+		04AD08FE2BBC826800EBC20F /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD08FD2BBC826800EBC20F /* KeyboardHelper.swift */; };
+		04AD09002BBC829000EBC20F /* UIButton+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD08FF2BBC829000EBC20F /* UIButton+ext.swift */; };
+		04AD09022BBC894700EBC20F /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD09012BBC894700EBC20F /* UserDefaults.swift */; };
+		04AD09042BBC8C4500EBC20F /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD09032BBC8C4500EBC20F /* UINavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040F35A22BBE9BD8004CBC97 /* Calendar+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+ext.swift"; sourceTree = "<group>"; };
+		040F35A42BBEA584004CBC97 /* UINotificationCenter+service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINotificationCenter+service.swift"; sourceTree = "<group>"; };
 		0430F9D42BBC4BF300C92A14 /* TMS-IOS-LESSON-33-HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMS-IOS-LESSON-33-HW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0430F9D72BBC4BF300C92A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0430F9D92BBC4BF300C92A14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0430F9DB2BBC4BF300C92A14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0430F9DE2BBC4BF300C92A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0430F9DB2BBC4BF300C92A14 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0430F9E02BBC4BF700C92A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0430F9E32BBC4BF700C92A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0430F9E52BBC4BF700C92A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0430F9EE2BBC4DD600C92A14 /* Auth+service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Auth+service.swift"; sourceTree = "<group>"; };
+		043C684D2BBD5B4300820C65 /* Keychain+service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keychain+service.swift"; sourceTree = "<group>"; };
+		043C684F2BBD5FB900820C65 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
+		04AD08F72BBC7ED300EBC20F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04AD08FA2BBC7F6200EBC20F /* UITextField+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+ext.swift"; sourceTree = "<group>"; };
+		04AD08FD2BBC826800EBC20F /* KeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
+		04AD08FF2BBC829000EBC20F /* UIButton+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+ext.swift"; sourceTree = "<group>"; };
+		04AD09012BBC894700EBC20F /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		04AD09032BBC8C4500EBC20F /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043C684C2BBD5AA500820C65 /* SwiftyKeychainKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +78,65 @@
 		0430F9D62BBC4BF300C92A14 /* TMS-IOS-LESSON-33-HW */ = {
 			isa = PBXGroup;
 			children = (
-				0430F9D72BBC4BF300C92A14 /* AppDelegate.swift */,
-				0430F9D92BBC4BF300C92A14 /* SceneDelegate.swift */,
-				0430F9DB2BBC4BF300C92A14 /* ViewController.swift */,
-				0430F9DD2BBC4BF300C92A14 /* Main.storyboard */,
-				0430F9E02BBC4BF700C92A14 /* Assets.xcassets */,
-				0430F9E22BBC4BF700C92A14 /* LaunchScreen.storyboard */,
-				0430F9E52BBC4BF700C92A14 /* Info.plist */,
+				04AD08FC2BBC825400EBC20F /* Utils */,
+				04AD08F92BBC7F5000EBC20F /* Extensions */,
+				0430F9ED2BBC4DBB00C92A14 /* Services */,
+				0430F9EC2BBC4D6B00C92A14 /* Views */,
+				0430F9EB2BBC4D3000C92A14 /* Resourses */,
 			);
 			path = "TMS-IOS-LESSON-33-HW";
+			sourceTree = "<group>";
+		};
+		0430F9EB2BBC4D3000C92A14 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				0430F9E02BBC4BF700C92A14 /* Assets.xcassets */,
+				0430F9E52BBC4BF700C92A14 /* Info.plist */,
+				0430F9E22BBC4BF700C92A14 /* LaunchScreen.storyboard */,
+				0430F9D92BBC4BF300C92A14 /* SceneDelegate.swift */,
+				0430F9D72BBC4BF300C92A14 /* AppDelegate.swift */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		0430F9EC2BBC4D6B00C92A14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0430F9DB2BBC4BF300C92A14 /* MainViewController.swift */,
+				04AD08F72BBC7ED300EBC20F /* LoginViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0430F9ED2BBC4DBB00C92A14 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0430F9EE2BBC4DD600C92A14 /* Auth+service.swift */,
+				043C684D2BBD5B4300820C65 /* Keychain+service.swift */,
+				040F35A42BBEA584004CBC97 /* UINotificationCenter+service.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		04AD08F92BBC7F5000EBC20F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				040F35A22BBE9BD8004CBC97 /* Calendar+ext.swift */,
+				04AD08FA2BBC7F6200EBC20F /* UITextField+ext.swift */,
+				04AD09032BBC8C4500EBC20F /* UINavigationController.swift */,
+				04AD08FF2BBC829000EBC20F /* UIButton+ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04AD08FC2BBC825400EBC20F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04AD09012BBC894700EBC20F /* UserDefaults.swift */,
+				04AD08FD2BBC826800EBC20F /* KeyboardHelper.swift */,
+				043C684F2BBD5FB900820C65 /* DateFormat.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +155,9 @@
 			dependencies = (
 			);
 			name = "TMS-IOS-LESSON-33-HW";
+			packageProductDependencies = (
+				043C684B2BBD5AA500820C65 /* SwiftyKeychainKit */,
+			);
 			productName = "TMS-IOS-LESSON-33-HW";
 			productReference = 0430F9D42BBC4BF300C92A14 /* TMS-IOS-LESSON-33-HW.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +186,9 @@
 				Base,
 			);
 			mainGroup = 0430F9CB2BBC4BF300C92A14;
+			packageReferences = (
+				043C684A2BBD5AA500820C65 /* XCRemoteSwiftPackageReference "SwiftyKeychainKit" */,
+			);
 			productRefGroup = 0430F9D52BBC4BF300C92A14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +205,6 @@
 			files = (
 				0430F9E42BBC4BF700C92A14 /* LaunchScreen.storyboard in Resources */,
 				0430F9E12BBC4BF700C92A14 /* Assets.xcassets in Resources */,
-				0430F9DF2BBC4BF300C92A14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +215,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0430F9DC2BBC4BF300C92A14 /* ViewController.swift in Sources */,
+				043C68502BBD5FB900820C65 /* DateFormat.swift in Sources */,
+				0430F9DC2BBC4BF300C92A14 /* MainViewController.swift in Sources */,
+				04AD09042BBC8C4500EBC20F /* UINavigationController.swift in Sources */,
 				0430F9D82BBC4BF300C92A14 /* AppDelegate.swift in Sources */,
+				04AD08FE2BBC826800EBC20F /* KeyboardHelper.swift in Sources */,
+				040F35A52BBEA584004CBC97 /* UINotificationCenter+service.swift in Sources */,
+				043C684E2BBD5B4300820C65 /* Keychain+service.swift in Sources */,
+				040F35A32BBE9BD8004CBC97 /* Calendar+ext.swift in Sources */,
+				04AD09002BBC829000EBC20F /* UIButton+ext.swift in Sources */,
 				0430F9DA2BBC4BF300C92A14 /* SceneDelegate.swift in Sources */,
+				04AD09022BBC894700EBC20F /* UserDefaults.swift in Sources */,
+				0430F9EF2BBC4DD600C92A14 /* Auth+service.swift in Sources */,
+				04AD08F82BBC7ED300EBC20F /* LoginViewController.swift in Sources */,
+				04AD08FB2BBC7F6200EBC20F /* UITextField+ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0430F9DD2BBC4BF300C92A14 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0430F9DE2BBC4BF300C92A14 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0430F9E22BBC4BF700C92A14 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,10 +374,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N3LRJV66ML;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TMS-IOS-LESSON-33-HW/Info.plist";
+				INFOPLIST_FILE = "TMS-IOS-LESSON-33-HW/Resourses/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,10 +401,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N3LRJV66ML;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TMS-IOS-LESSON-33-HW/Info.plist";
+				INFOPLIST_FILE = "TMS-IOS-LESSON-33-HW/Resourses/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +441,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		043C684A2BBD5AA500820C65 /* XCRemoteSwiftPackageReference "SwiftyKeychainKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/andriyslyusar/SwiftyKeychainKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		043C684B2BBD5AA500820C65 /* SwiftyKeychainKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043C684A2BBD5AA500820C65 /* XCRemoteSwiftPackageReference "SwiftyKeychainKit" */;
+			productName = SwiftyKeychainKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0430F9CC2BBC4BF300C92A14 /* Project object */;
 }
