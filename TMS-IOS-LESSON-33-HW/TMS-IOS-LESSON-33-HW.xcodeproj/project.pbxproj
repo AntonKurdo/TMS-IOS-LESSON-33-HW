@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		040F35A32BBE9BD8004CBC97 /* Calendar+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F35A22BBE9BD8004CBC97 /* Calendar+ext.swift */; };
 		040F35A52BBEA584004CBC97 /* UINotificationCenter+service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F35A42BBEA584004CBC97 /* UINotificationCenter+service.swift */; };
+		04307BCA2BD7C7DF0098F9B4 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 04307BC92BD7C7DF0098F9B4 /* Localizable.xcstrings */; };
+		04307BDF2BD7D4730098F9B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04307BE12BD7D4730098F9B4 /* InfoPlist.strings */; };
 		0430F9D82BBC4BF300C92A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430F9D72BBC4BF300C92A14 /* AppDelegate.swift */; };
 		0430F9DA2BBC4BF300C92A14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430F9D92BBC4BF300C92A14 /* SceneDelegate.swift */; };
 		0430F9DC2BBC4BF300C92A14 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430F9DB2BBC4BF300C92A14 /* MainViewController.swift */; };
@@ -29,13 +31,16 @@
 /* Begin PBXFileReference section */
 		040F35A22BBE9BD8004CBC97 /* Calendar+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+ext.swift"; sourceTree = "<group>"; };
 		040F35A42BBEA584004CBC97 /* UINotificationCenter+service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINotificationCenter+service.swift"; sourceTree = "<group>"; };
+		04307BC92BD7C7DF0098F9B4 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		04307BDC2BD7D3E30098F9B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04307BE02BD7D4730098F9B4 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04307BE22BD7D4760098F9B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0430F9D42BBC4BF300C92A14 /* TMS-IOS-LESSON-33-HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMS-IOS-LESSON-33-HW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0430F9D72BBC4BF300C92A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0430F9D92BBC4BF300C92A14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0430F9DB2BBC4BF300C92A14 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0430F9E02BBC4BF700C92A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0430F9E32BBC4BF700C92A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0430F9E52BBC4BF700C92A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0430F9EE2BBC4DD600C92A14 /* Auth+service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Auth+service.swift"; sourceTree = "<group>"; };
 		043C684D2BBD5B4300820C65 /* Keychain+service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keychain+service.swift"; sourceTree = "<group>"; };
 		043C684F2BBD5FB900820C65 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
@@ -90,8 +95,10 @@
 		0430F9EB2BBC4D3000C92A14 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				04307BDC2BD7D3E30098F9B4 /* Info.plist */,
 				0430F9E02BBC4BF700C92A14 /* Assets.xcassets */,
-				0430F9E52BBC4BF700C92A14 /* Info.plist */,
+				04307BC92BD7C7DF0098F9B4 /* Localizable.xcstrings */,
+				04307BE12BD7D4730098F9B4 /* InfoPlist.strings */,
 				0430F9E22BBC4BF700C92A14 /* LaunchScreen.storyboard */,
 				0430F9D92BBC4BF300C92A14 /* SceneDelegate.swift */,
 				0430F9D72BBC4BF300C92A14 /* AppDelegate.swift */,
@@ -184,6 +191,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 0430F9CB2BBC4BF300C92A14;
 			packageReferences = (
@@ -204,7 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0430F9E42BBC4BF700C92A14 /* LaunchScreen.storyboard in Resources */,
+				04307BDF2BD7D4730098F9B4 /* InfoPlist.strings in Resources */,
 				0430F9E12BBC4BF700C92A14 /* Assets.xcassets in Resources */,
+				04307BCA2BD7C7DF0098F9B4 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +245,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		04307BE12BD7D4730098F9B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04307BE02BD7D4730098F9B4 /* ru */,
+				04307BE22BD7D4760098F9B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		0430F9E22BBC4BF700C92A14 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -251,6 +270,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -314,6 +334,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -379,6 +400,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,6 +428,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

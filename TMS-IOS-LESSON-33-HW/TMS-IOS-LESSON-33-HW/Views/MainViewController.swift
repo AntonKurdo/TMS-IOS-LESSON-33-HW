@@ -12,7 +12,7 @@ class MainViewController: UIViewController {
     }
     
     private func setupNavigationBar() {
-        navigationItem.title = "Main"
+        navigationItem.title = String(localized: "MainViewController.Main")
         navigationController?.navigationBar.prefersLargeTitles = true
         
         let button = UIBarButtonItem(title: nil, image: UIImage(systemName: "rectangle.portrait.and.arrow.forward"), target: self, action: #selector(logout))

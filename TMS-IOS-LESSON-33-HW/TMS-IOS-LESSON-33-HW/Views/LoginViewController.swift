@@ -5,15 +5,15 @@ class LoginViewController: UIViewController {
     
     private var buttonBottomConstraint_withCloseKB: NSLayoutConstraint?
     private var buttonBottomConstraint_withOpenKB: NSLayoutConstraint?
-    private var emailTextField = UITextField(placeholder: "Email...")
-    private var passwordTextField = UITextField(placeholder: "Password...")
-    private var button = UIButton(title: "Sign In", color: .systemCyan)
+    private var emailTextField = UITextField(placeholder: String(localized: "LoginVC.emailPlaceholer"))
+    private var passwordTextField = UITextField(placeholder: String(localized: "LoginVC.passwordPlaceholer"))
+    private var button = UIButton(title: String(localized: "LoginVC.signIn"), color: .systemCyan)
     private var keyboardHelper: KeyboardHelper?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        navigationItem.title = "Login"
+        navigationItem.title = String(localized: "LoginVC.login")
         navigationController?.navigationBar.prefersLargeTitles = true
         
         setupTextFields()
