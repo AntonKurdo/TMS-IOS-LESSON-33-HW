@@ -25,8 +25,8 @@ class UINotificationCenterService {
 
     func addNotification() {
         let content = UNMutableNotificationContent()
-        content.title = "Attention"
-        content.subtitle = "You need to relogin"
+        content.title = String(localized: "Notification.title")
+        content.subtitle = String(localized: "Notification.subTitle")
         content.sound = UNNotificationSound.default
         
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: dayTimeInterval, repeats: false)

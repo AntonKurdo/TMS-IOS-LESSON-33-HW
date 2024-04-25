@@ -80,6 +80,38 @@
           }
         }
       }
+    },
+    "Notification.subTitle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " You need to relogin"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Внимание"
+          }
+        }
+      }
+    },
+    "Notification.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attention"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вам необходимо войти заново"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
